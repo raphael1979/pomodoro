@@ -7,29 +7,22 @@ h1  {
 
 .timer {
 
-background-color:blue;  /* Fond gris */
-height:135px;
-width:375px;
+	background-color:blue;  
+	width:375px;
 
-/* Centrer horizontalement */
-margin-left:auto; 
-margin-right:auto;
+	margin-left:auto; 
+	margin-right:auto;
 
-/*Centrer verticalement*/
-margin-top:182.5px;
+	margin-top:182.5px;
 
-/*Arondit les angles*/
-border-radius:5px;
+	border-radius:5px;
 
-/*Ajoute la police que nous avions intégrer*/
-font-family:Chrono;
+	font-family:Chrono;
 
-/*Définit la couleur et la taille du texte */
-color:white;
-font-size:100px;
+	color:white;
+	font-size:100px;
 
-/*Aligne le texte au centre*/
-text-align:center;
+	text-align:center;
 }
 
 .bouton {
@@ -40,10 +33,11 @@ text-align:center;
 	
 }
 .chrono {
-	text-align: center;
+	text-align: right;
 	margin-bottom: 30px;
 	
 }
 body {
-	text-align: center;
+	display: block;
+	margin: 8px;
 }
